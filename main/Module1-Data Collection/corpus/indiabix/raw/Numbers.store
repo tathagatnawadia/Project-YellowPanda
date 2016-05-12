@@ -1,0 +1,444 @@
+Which one of the following is not a prime number?
+{1: '31', 2: '61', 3: '71', 4: '91'}
+|
+(112 x 54) = ?
+{1: '67000', 2: '70000', 3: '76500', 4: '77200'}
+|
+It is being given that (232 + 1) is completely divisible by a whole number. Which of the following numbers is completely divisible by this number?
+{1: '(216 + 1)', 2: '(216 - 1)', 3: '(7 x 223)', 4: '(296 + 1)'}
+|
+What least number must be added to 1056, so that the sum is completely divisible by 23 ?
+{1: '2', 2: '3', 3: '18', 4: '21', 5: 'None of these'}
+|
+1397 x 1397 = ?
+{1: '1951609', 2: '1981709', 3: '18362619', 4: '2031719', 5: 'None of these'}
+|
+How many of the following numbers are divisible by 132 ? 264, 396, 462, 792, 968, 2178, 5184, 6336
+{1: '4', 2: '5', 3: '6', 4: '7'}
+|
+(935421 x 625) = ?
+{1: '575648125', 2: '584638125', 3: '584649125', 4: '585628125'}
+|
+The largest 4 digit number exactly divisible by 88 is:
+{1: '9944', 2: '9768', 3: '9988', 4: '8888', 5: 'None of these'}
+|
+Which of the following is a prime number ?
+{1: '33', 2: '81', 3: '93', 4: '97'}
+|
+What is the unit digit in {(6374)1793 x (625)317 x (341491)}?
+{1: '0', 2: '2', 3: '3', 4: '5'}
+|
+5358 x 51 = ?
+{1: '273258', 2: '273268', 3: '273348', 4: '273358'}
+|
+The sum of first five prime numbers is:
+{1: '11', 2: '18', 3: '26', 4: '28'}
+|
+The difference of two numbers is 1365. On dividing the larger number by the smaller, we get 6 as quotient and the 15 as remainder. What is the smaller number ?
+{1: '240', 2: '270', 3: '295', 4: '360'}
+|
+(12)3 x 64 ÷ 432 = ?
+{1: '5184', 2: '5060', 3: '5148', 4: '5084', 5: 'None of these'}
+|
+72519 x 9999 = ?
+{1: '725117481', 2: '674217481', 3: '685126481', 4: '696217481', 5: 'None of these'}
+|
+If the number 517*324 is completely divisible by 3, then the smallest whole number in the place of * will be:
+{1: '0', 2: '1', 3: '2', 4: 'None of these'}
+|
+The smallest 3 digit prime number is:
+{1: '101', 2: '103', 3: '109', 4: '113'}
+|
+Which one of the following numbers is exactly divisible by 11?
+{1: '235641', 2: '245642', 3: '315624', 4: '415624'}
+|
+(?) - 19657 - 33994 = 9999
+{1: '63650', 2: '53760', 3: '59640', 4: '61560', 5: 'None of these'}
+|
+The sum of first 45 natural numbers is:
+{1: '1035', 2: '1280', 3: '2070', 4: '2140'}
+|
+Which of the following number is divisible by 24 ?
+{1: '35718', 2: '63810', 3: '537804', 4: '3125736'}
+|
+753 x 753 + 247 x 247 - 753 x 247 = ?  753 x 753 x 753 + 247 x 247 x 247
+{1: '1  1000', 2: '1  506', 3: '253  500', 4: 'None of these'}
+|
+(?) + 3699 + 1985 - 2047 = 31111
+{1: '34748', 2: '27474', 3: '30154', 4: '27574', 5: 'None of these'}
+|
+If the number 481 * 673 is completely divisible by 9, then the smallest whole number in place of * will be:
+{1: '2', 2: '5', 3: '6', 4: '7', 5: 'None of these'}
+|
+The difference between the local value and the face value of 7 in the numeral 32675149 is
+{1: '75142', 2: '64851', 3: '5149', 4: '69993', 5: 'None of these'}
+|
+The difference between a positive proper fraction and its reciprocal is 9/20. The fraction is:
+{1: '3  5', 2: '3  10', 3: '4  5', 4: '4  3'}
+|
+On dividing a number by 56, we get 29 as remainder. On dividing the same number by 8, what will be the remainder ?
+{1: '4', 2: '5', 3: '6', 4: '7'}
+|
+If n is a natural number, then (6n2 + 6n) is always divisible by:
+{1: '6 only', 2: '6 and 12 both', 3: '12 only', 4: 'by 18 only'}
+|
+107 x 107 + 93 x 93 = ?
+{1: '19578', 2: '19418', 3: '20098', 4: '21908', 5: 'None of these'}
+|
+What will be remainder when (6767 + 67) is divided by 68 ?
+{1: '1', 2: '63', 3: '66', 4: '67'}
+|
+On dividing a number by 5, we get 3 as remainder. What will the remainder when the square of the this number is divided by 5 ?
+{1: '0', 2: '1', 3: '2', 4: '4'}
+|
+How many 3-digit numbers are completely divisible 6 ?
+{1: '149', 2: '150', 3: '151', 4: '166'}
+|
+How many natural numbers are there between 23 and 100 which are exactly divisible by 6 ?
+{1: '8', 2: '11', 3: '12', 4: '13', 5: 'None of these'}
+|
+How many of the following numbers are divisible by 3 but not by 9 ? 2133, 2343, 3474, 4131, 5286, 5340, 6336, 7347, 8115, 9276
+{1: '5', 2: '6', 3: '7', 4: 'None of these'}
+|
+(963 + 476)2 + (963 - 476)2 = ?  (963 x 963 + 476 x 476)
+{1: '1449', 2: '497', 3: '2', 4: '4', 5: 'None of these'}
+|
+How many 3 digit numbers are divisible by 6 in all ?
+{1: '149', 2: '150', 3: '151', 4: '166'}
+|
+A 3-digit number 4a3 is added to another 3-digit number 984 to give a 4-digit number 13b7, which is divisible by 11. Then, (a + b) = ?
+{1: '10', 2: '11', 3: '12', 4: '15'}
+|
+8597 - ? = 7429 - 4358
+{1: '5426', 2: '5706', 3: '5526', 4: '5476', 5: 'None of these'}
+|
+The smallest prime number is:
+{1: '1', 2: '2', 3: '3', 4: '4'}
+|
+(12345679 x 72) = ?
+{1: '88888888', 2: '888888888', 3: '898989898', 4: '9999999998'}
+|
+On dividing a number by 357, we get 39 as remainder. On dividing the same number 17, what will be the remainder ?
+{1: '0', 2: '3', 3: '5', 4: '11'}
+|
+If the product 4864 x 9 P 2 is divisible by 12, then the value of P is:
+{1: '2', 2: '5', 3: '6', 4: '8', 5: 'None of these'}
+|
+Which one of the following is the common factor of (4743 + 4343) and (4747 + 4347) ?
+{1: '(47 - 43)', 2: '(47 + 43)', 3: '(4743 + 4343)', 4: 'None of these'}
+|
+-84 x 29 + 365 = ?
+{1: '2436', 2: '2801', 3: '-2801', 4: '-2071', 5: 'None of these'}
+|
+A number when divided by 296 leaves 75 as remainder. When the same number is divided by 37, the remainder will be:
+{1: '1', 2: '2', 3: '8', 4: '11'}
+|
+In dividing a number by 585, a student employed the method of short division. He divided the number successively by 5, 9 and 13 (factors 585) and got the remainders 4, 8, 12 respectively. If he had divided the number by 585, the remainder would have been
+{1: '24', 2: '144', 3: '292', 4: '584'}
+|
+In a division sum, the divisor is 10 times the quotient and 5 times the remainder. If the remainder is 46, what is the dividend ?
+{1: '4236', 2: '4306', 3: '4336', 4: '5336', 5: 'None of these'}
+|
+4500 x ? = 3375
+{1: '2  5', 2: '3  4', 3: '1  4', 4: '3  5', 5: 'None of these'}
+|
+What smallest number should be added to 4456 so that the sum is completely divisible by 6 ?
+{1: '4', 2: '3', 3: '2', 4: '1', 5: 'None of these'}
+|
+What least number must be subtracted from 13601, so that the remainder is divisible by 87 ?
+{1: '23', 2: '31', 3: '29', 4: '37', 5: '49'}
+|
+476 ** 0 is divisible by both 3 and 11. The non-zero digits in the hundred's and ten's places are respectively:
+{1: '7 and 4', 2: '7 and 5', 3: '8 and 5', 4: 'None of these'}
+|
+If the number 97215 * 6 is completely divisible by 11, then the smallest whole number in place of * will be:
+{1: '3', 2: '2', 3: '1', 4: '5', 5: 'None of these'}
+|
+(112 + 122 + 132 + ... + 202) = ?
+{1: '385', 2: '2485', 3: '2870', 4: '3255'}
+|
+If the number 5 * 2 is divisible by 6, then * = ?
+{1: '2', 2: '3', 3: '6', 4: '7'}
+|
+Which of the following numbers will completely divide (4915 - 1) ?
+{1: '8', 2: '14', 3: '46', 4: '50'}
+|
+9 + 3 + 7 + 2 - 9 + 1 = ?  4 17 15
+{1: '7 + 719  1020', 2: '9 + 817  1020', 3: '9 + 719  1020', 4: '7 + 817  1020', 5: 'None of these'}
+|
+1 - 1 + 1 - 2 + 1 - 3 + ... up to n terms = ?  n n n
+{1: '1 n  2', 2: '1 (n - 1)  2', 3: '1 n(n - 1)  2', 4: 'None of these'}
+|
+On dividing 2272 as well as 875 by 3-digit number N, we get the same remainder. The sum of the digits of N is:
+{1: '10', 2: '11', 3: '12', 4: '13'}
+|
+A boy multiplied 987 by a certain number and obtained 559981 as his answer. If in the answer both 9 are wrong and the other digits are correct, then the correct answer would be:
+{1: '553681', 2: '555181', 3: '555681', 4: '556581'}
+|
+How many prime numbers are less than 50 ?
+{1: '16', 2: '15', 3: '14', 4: '18'}
+|
+When a number is divided by 13, the remainder is 11. When the same number is divided by 17, then remainder is 9. What is the number ?
+{1: '339', 2: '349', 3: '369', 4: 'Data inadequate'}
+|
+(51 + 52 + 53 + ... + 100) = ?
+{1: '2525', 2: '2975', 3: '3225', 4: '3775'}
+|
+(800 ÷ 64) x (1296 ÷36) = ?
+{1: '420', 2: '460', 3: '500', 4: '540', 5: 'None of these'}
+|
+Which natural number is nearest to 8485, which is completely divisible by 75 ?
+{1: '8475', 2: '8500', 3: '8550', 4: '8525', 5: 'None of these'}
+|
+If the number 42573 * is exactly divisible by 72, then the minimum value of * is:
+{1: '4', 2: '5', 3: '6', 4: '7', 5: '8'}
+|
+Which of the following numbers is divisible by each one of 3, 7, 9 and 11 ?
+{1: '639', 2: '2079', 3: '3791', 4: '37911', 5: 'None of these'}
+|
+Which natural number is nearest to 9217, which is completely divisible by 88 ?
+{1: '9152', 2: '9240', 3: '9064', 4: '9184', 5: 'None of these'}
+|
+(4300731) - ? = 2535618
+{1: '1865113', 2: '1775123', 3: '1765113', 4: '1675123', 5: 'None of these'}
+|
+n is a whole number which when divided by 4 gives 3 as remainder. What will be the remainder when 2n is divided by 4 ?
+{1: '3', 2: '2', 3: '1', 4: '0'}
+|
+(489 + 375)2 - (489 - 375)2 = ?  (489 x 375)
+{1: '144', 2: '864', 3: '2', 4: '4', 5: 'None of these'}
+|
+397 x 397 + 104 x 104 + 2 x 397 x 104 = ?
+{1: '250001', 2: '251001', 3: '260101', 4: '261001'}
+|
+(35423 + 7164 + 41720) - (317 x 89) = ?
+{1: '28213', 2: '84307', 3: '50694', 4: '56094', 5: 'None of these'}
+|
+(xn - an) is completely divisible by (x - a), when
+{1: 'n is any natural number', 2: 'n is an even natural number', 3: 'n is and odd natural number', 4: 'n is prime'}
+|
+Which one of the following numbers is completely divisible by 45?
+{1: '181560', 2: '331145', 3: '202860', 4: '2033555', 5: 'None of these'}
+|
+Which of the following numbers will completely divide (325 + 326 + 327 + 328) ?
+{1: '11', 2: '16', 3: '25', 4: '30'}
+|
+A number when divide by 6 leaves a remainder 3. When the square of the number is divided by 6, the remainder is:
+{1: '0', 2: '1', 3: '2', 4: '3'}
+|
+The sum of the two numbers is 12 and their product is 35. What is the sum of the reciprocals of these numbers ?
+{1: '12  35', 2: '1  35', 3: '35  8', 4: '7  32'}
+|
+What will be remainder when 17200 is divided by 18 ?
+{1: '17', 2: '16', 3: '1', 4: '2'}
+|
+If 1400 x x = 1050. Then, x = ?
+{1: '1  4', 2: '3  5', 3: '2  3', 4: '3  4', 5: 'None of these'}
+|
+(12 + 22 + 32 + ... + 102) = ?
+{1: '330', 2: '345', 3: '365', 4: '385'}
+|
+The difference of the squares of two consecutive even integers is divisible by which of the following integers ?
+{1: '3', 2: '4', 3: '6', 4: '7'}
+|
+Which one of the following is a prime number ?
+{1: '119', 2: '187', 3: '247', 4: '551', 5: 'None of these'}
+|
+The sum all even natural numbers between 1 and 31 is:
+{1: '16', 2: '128', 3: '240', 4: '512'}
+|
+The difference between the place value and the face value of 6 in the numeral 856973 is
+{1: '973', 2: '6973', 3: '5994', 4: 'None of these'}
+|
+If a and b are odd numbers, then which of the following is even ?
+{1: 'a + b', 2: 'a + b + 1', 3: 'ab', 4: 'ab + 2', 5: 'None of these'}
+|
+Which one of the following numbers is completely divisible by 99?
+{1: '3572404', 2: '135792', 3: '913464', 4: '114345', 5: 'None of these'}
+|
+The sum of how many terms of the series 6 + 12 + 18 + 24 + ... is 1800 ?
+{1: '16', 2: '24', 3: '20', 4: '18', 5: '22'}
+|
+(51+ 52 + 53 + ... + 100) = ?
+{1: '2525', 2: '2975', 3: '3225', 4: '3775'}
+|
+1904 x 1904 = ?
+{1: '3654316', 2: '3632646', 3: '3625216', 4: '3623436', 5: 'None of these'}
+|
+What is the unit digit in(795 - 358)?
+{1: '0', 2: '4', 3: '6', 4: '7'}
+|
+Which one of the following is a prime number ?
+{1: '161', 2: '221', 3: '373', 4: '437', 5: 'None of these'}
+|
+The smallest 6 digit number exactly divisible by 111 is:
+{1: '111111', 2: '110011', 3: '100011', 4: '110101', 5: 'None of these'}
+|
+The largest 5 digit number exactly divisible by 91 is:
+{1: '99921', 2: '99918', 3: '99981', 4: '99971', 5: 'None of these'}
+|
+768 x 768 x 768 + 232 x 232 x 232 = ?  768 x 768 - 768 x 232 + 232 x 232
+{1: '1000', 2: '536', 3: '500', 4: '268', 5: 'None of these'}
+|
+The smallest 5 digit number exactly divisible by 41 is:
+{1: '1004', 2: '10004', 3: '10045', 4: '10025', 5: 'None of these'}
+|
+How many terms are there in the G.P. 3, 6, 12, 24, ... , 384 ?
+{1: '8', 2: '9', 3: '10', 4: '11', 5: '7'}
+|
+If x and y are positive integers such that (3x + 7y) is a multiple of 11, then which of the following will be divisible by 11 ?
+{1: '4x + 6y', 2: 'x + y + 4', 3: '9x + 4y', 4: '4x - 9y'}
+|
+9548 + 7314 = 8362 + (?)
+{1: '8230', 2: '8410', 3: '8500', 4: '8600', 5: 'None of these'}
+|
+In a division sum, the remainder is 0. As student mistook the divisor by 12 instead of 21 and obtained 35 as quotient. What is the correct quotient ?
+{1: '0', 2: '12', 3: '13', 4: '20'}
+|
+2 + 22 + 23 + ... + 29 = ?
+{1: '2044', 2: '1022', 3: '1056', 4: 'None of these'}
+|
+The sum of even numbers between 1 and 31 is:
+{1: '6', 2: '28', 3: '240', 4: '512'}
+|
+If the number 91876 * 2 is completely divisible by 8, then the smallest whole number in place of * will be:
+{1: '1', 2: '2', 3: '3', 4: '4', 5: 'None of these'}
+|
+2056 x 987 = ?
+{1: '1936372', 2: '2029272', 3: '1896172', 4: '1926172', 5: 'None of these'}
+|
+On multiplying a number by 7, the product is a number each of whose digits is 3. The smallest such number is:
+{1: '47619', 2: '47719', 3: '48619', 4: '47649'}
+|
+If 60% of 3 of a number is 36, then the number is:  5
+{1: '80', 2: '100', 3: '75', 4: '90'}
+|
+If x and y are the two digits of the number 653xy such that this number is divisible by 80, then x + y = ?
+{1: '2 or 6', 2: '4', 3: '4 or 8', 4: '8', 5: 'None of these'}
+|
+The difference of the squares of two consecutive odd integers is divisible by which of the following integers ?
+{1: '3', 2: '6', 3: '7', 4: '8'}
+|
+What is the unit digit in (4137)754?
+{1: '1', 2: '3', 3: '7', 4: '9'}
+|
+587 x 999 = ?
+{1: '586413', 2: '587523', 3: '614823', 4: '615173'}
+|
+A number was divided successively in order by 4, 5 and 6. The remainders were respectively 2, 3 and 4. The number is:
+{1: '214', 2: '476', 3: '954', 4: '1908'}
+|
+If (64)2 - (36)2 = 20 x x, then x = ?
+{1: '70', 2: '120', 3: '180', 4: '140', 5: 'None of these'}
+|
+Which one of the following can't be the square of natural number ?
+{1: '32761', 2: '81225', 3: '42437', 4: '20164', 5: 'None of these'}
+|
+(22 + 42 + 62 + ... + 202) = ?
+{1: '770', 2: '1155', 3: '1540', 4: '385 x 385'}
+|
+854 x 854 x 854 - 276 x 276 x 276 = ?  854 x 854 + 854 x 276 + 276 x 276
+{1: '1130', 2: '578', 3: '565', 4: '1156', 5: 'None of these'}
+|
+35 + 15 x 1.5 = ?
+{1: '85', 2: '51.5', 3: '57.5', 4: '5.25', 5: 'None of these'}
+|
+The sum of first 45 natural numbers is:
+{1: '1035', 2: '1280', 3: '2070', 4: '2140'}
+|
+666 ÷ 6 ÷ 3 = ?
+{1: '37', 2: '333', 3: '111', 4: '84', 5: 'None of these'}
+|
+The sum of all two digit numbers divisible by 5 is:
+{1: '1035', 2: '1245', 3: '1230', 4: '945', 5: 'None of these'}
+|
+The difference between the place values of two sevens in the numeral 69758472 is
+{1: '0', 2: '6993', 3: '699930', 4: 'None of these'}
+|
+On dividing a number by 68, we get 269 as quotient and 0 as remainder. On dividing the same number by 67, what will the remainder ?
+{1: '0', 2: '1', 3: '2', 4: '3'}
+|
+What is the unit digit in the product (365 x 659 x 771)?
+{1: '1', 2: '2', 3: '4', 4: '6'}
+|
+3251 + 587 + 369 - ? = 3007
+{1: '1250', 2: '1300', 3: '1375', 4: '1200', 5: 'None of these'}
+|
+7589 - ? = 3434
+{1: '4242', 2: '4155', 3: '1123', 4: '11023', 5: 'None of these'}
+|
+217 x 217 + 183 x 183 = ?
+{1: '79698', 2: '80578', 3: '80698', 4: '81268'}
+|
+The unit digit in the product (784 x 618 x 917 x 463) is:
+{1: '2', 2: '3', 3: '4', 4: '5'}
+|
+If the number 653 xy is divisible by 90, then (x + y) = ?
+{1: '2', 2: '3', 3: '4', 4: '6'}
+|
+3897 x 999 = ?
+{1: '3883203', 2: '3893103', 3: '3639403', 4: '3791203', 5: 'None of these'}
+|
+What is the unit digit in 7105 ?
+{1: '1', 2: '5', 3: '7', 4: '9'}
+|
+Which of the following numbers will completely divide (461 + 462 + 463 + 464) ?
+{1: '3', 2: '10', 3: '11', 4: '13'}
+|
+106 x 106 - 94 x 94 = ?
+{1: '2400', 2: '2000', 3: '1904', 4: '1906', 5: 'None of these'}
+|
+A number when divided successively by 4 and 5 leaves remainders 1 and 4 respectively. When it is successively divided by 5 and 4, then the respective remainders will be
+{1: '1, 2', 2: '2, 3', 3: '3, 2', 4: '4, 1'}
+|
+8796 x 223 + 8796 x 77 = ?
+{1: '2736900', 2: '2638800', 3: '2658560', 4: '2716740', 5: 'None of these'}
+|
+8988 ÷ 8 ÷ 4 = ?
+{1: '4494', 2: '561.75', 3: '2247', 4: '280.875', 5: 'None of these'}
+|
+287 x 287 + 269 x 269 - 2 x 287 x 269 = ?
+{1: '534', 2: '446', 3: '354', 4: '324', 5: 'None of these'}
+|
+3 + 33 + 333 + 3.33 = ?
+{1: '362.3', 2: '372.33', 3: '702.33', 4: '702', 5: 'None of these'}
+|
+Which one of the following can't be the square of natural number ?
+{1: '30976', 2: '75625', 3: '28561', 4: '143642', 5: 'None of these'}
+|
+(1000)9 ÷ 1024 = ?
+{1: '10000', 2: '1000', 3: '100', 4: '10', 5: 'None of these'}
+|
+{(476 + 424)2 - 4 x 476 x 424} = ?
+{1: '2906', 2: '3116', 3: '2704', 4: '2904', 5: 'None of these'}
+|
+5358 x 51 = ?
+{1: '273258', 2: '273268', 3: '273348', 4: '273358'}
+|
+The sum of first five prime numbers is:
+{1: '11', 2: '18', 3: '26', 4: '28'}
+|
+The difference of two numbers is 1365. On dividing the larger number by the smaller, we get 6 as quotient and the 15 as remainder. What is the smaller number ?
+{1: '240', 2: '270', 3: '295', 4: '360'}
+|
+(12)3 x 64 ÷ 432 = ?
+{1: '5184', 2: '5060', 3: '5148', 4: '5084', 5: 'None of these'}
+|
+72519 x 9999 = ?
+{1: '725117481', 2: '674217481', 3: '685126481', 4: '696217481', 5: 'None of these'}
+|
+If the number 517*324 is completely divisible by 3, then the smallest whole number in the place of * will be:
+{1: '0', 2: '1', 3: '2', 4: 'None of these'}
+|
+The smallest 3 digit prime number is:
+{1: '101', 2: '103', 3: '109', 4: '113'}
+|
+Which one of the following numbers is exactly divisible by 11?
+{1: '235641', 2: '245642', 3: '315624', 4: '415624'}
+|
+(?) - 19657 - 33994 = 9999
+{1: '63650', 2: '53760', 3: '59640', 4: '61560', 5: 'None of these'}
+|
+The sum of first 45 natural numbers is:
+{1: '1035', 2: '1280', 3: '2070', 4: '2140'}
+|

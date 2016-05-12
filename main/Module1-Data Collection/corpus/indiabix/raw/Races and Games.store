@@ -1,0 +1,54 @@
+In a 100 m race, A can give B 10 m and C 28 m. In the same race B can give C:
+{1: '18 m', 2: '20 m', 3: '27 m', 4: '9 m'}
+|
+A and B take part in 100 m race. A runs at 5 kmph. A gives B a start of 8 m and still beats him by 8 seconds. The speed of B is:
+{1: '5.15 kmph', 2: '4.14 kmph', 3: '4.25 kmph', 4: '4.4 kmph'}
+|
+In a 500 m race, the ratio of the speeds of two contestants A and B is 3 : 4. A has a start of 140 m. Then, A wins by:
+{1: '60 m', 2: '40 m', 3: '20 m', 4: '10 m'}
+|
+In a 100 m race, A beats B by 10 m and C by 13 m. In a race of 180 m, B will beat C by:
+{1: '5.4 m', 2: '4.5 m', 3: '5 m', 4: '6 m'}
+|
+At a game of billiards, A can give B 15 points in 60 and A can give C to 20 points in 60. How many points can B give C in a game of 90?
+{1: '30 points', 2: '20 points', 3: '10 points', 4: '12 points'}
+|
+In a race of 200 m, A can beat B by 31 m and C by 18 m. In a race of 350 m, C will beat B by:
+{1: '22.75 m', 2: '25 m', 3: '19.5 m', 4: '7 4 m  7'}
+|
+In 100 m race, A covers the distance in 36 seconds and B in 45 seconds. In this race A beats B by:
+{1: '20 m', 2: '25 m', 3: '22.5 m', 4: '9 m'}
+|
+In a game of 100 points, A can give B 20 points and C 28 points. Then, B can give C:
+{1: '8 points', 2: '10 points', 3: '14 points', 4: '40 points'}
+|
+In a 200 metres race A beats B by 35 m or 7 seconds. A's time over the course is:
+{1: '40 sec', 2: '47 sec', 3: '33 sec', 4: 'None of these'}
+|
+A can run 22.5 m while B runs 25 m. In a kilometre race B beats A by:
+{1: '100 m', 2: '111 1 m  9', 3: '25 m', 4: '50 m'}
+|
+In a 300 m race A beats B by 22.5 m or 6 seconds. B's time over the course is:
+{1: '86 sec', 2: '80 sec', 3: '76 sec', 4: 'None of these'}
+|
+A runs 1 times as fast as B. If A gives B a start of 80 m, how far must the winning post be so that A and B might reach it at the same time?
+{1: '200 m', 2: '300 m', 3: '270 m', 4: '160 m'}
+|
+In a 100 m race, A can beat B by 25 m and B can beat C by 4 m. In the same race, A can beat C by:
+{1: '21 m', 2: '26 m', 3: '28 m', 4: '29 m'}
+|
+In a race of 200 m, A can beat B by 31 m and C by 18 m. In a race of 350 m, C will beat B by:
+{1: '22.75 m', 2: '25 m', 3: '19.5 m', 4: '7 4 m  7'}
+|
+In 100 m race, A covers the distance in 36 seconds and B in 45 seconds. In this race A beats B by:
+{1: '20 m', 2: '25 m', 3: '22.5 m', 4: '9 m'}
+|
+In a game of 100 points, A can give B 20 points and C 28 points. Then, B can give C:
+{1: '8 points', 2: '10 points', 3: '14 points', 4: '40 points'}
+|
+In a 200 metres race A beats B by 35 m or 7 seconds. A's time over the course is:
+{1: '40 sec', 2: '47 sec', 3: '33 sec', 4: 'None of these'}
+|
+A can run 22.5 m while B runs 25 m. In a kilometre race B beats A by:
+{1: '100 m', 2: '111 1 m  9', 3: '25 m', 4: '50 m'}
+|

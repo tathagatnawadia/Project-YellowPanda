@@ -1,0 +1,60 @@
+Father is aged three times more than his son Ronit. After 8 years, he would be two and a half times of Ronit's age. After further 8 years, how many times would he be of Ronit's age?
+{1: '2 times', 2: '2\xa0 1 times  2', 3: '2\xa0 3 times  4', 4: '3 times'}
+|
+The sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?
+{1: '4 years', 2: '8 years', 3: '10 years', 4: 'None of these'}
+|
+A father said to his son, "I was as old as you are at the present at the time of your birth". If the father's age is 38 years now, the son's age five years back was:
+{1: '14 years', 2: '19 years', 3: '33 years', 4: '38 years'}
+|
+A is two years older than B who is twice as old as C. If the total of the ages of A, B and C be 27, the how old is B?
+{1: '7', 2: '8', 3: '9', 4: '10', 5: '11'}
+|
+Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively. Three years hence, the ratio of their ages will become 11 : 9 respectively. What is Anand's present age in years?
+{1: '24', 2: '27', 3: '40', 4: 'Cannot be determined', 5: 'None of these'}
+|
+A man is 24 years older than his son. In two years, his age will be twice the age of his son. The present age of his son is:
+{1: '14 years', 2: '18 years', 3: '20 years', 4: '22 years'}
+|
+Six years ago, the ratio of the ages of Kunal and Sagar was 6 : 5. Four years hence, the ratio of their ages will be 11 : 10. What is Sagar's age at present?
+{1: '16 years', 2: '18 years', 3: '20 years', 4: 'Cannot be determined', 5: 'None of these'}
+|
+The sum of the present ages of a father and his son is 60 years. Six years ago, father's age was five times the age of the son. After 6 years, son's age will be:
+{1: '12 years', 2: '14 years', 3: '18 years', 4: '20 years'}
+|
+At present, the ratio between the ages of Arun and Deepak is 4 : 3. After 6 years, Arun's age will be 26 years. What is the age of Deepak at present ?
+{1: '12 years', 2: '15 years', 3: '19 and half', 4: '21 years'}
+|
+Sachin is younger than Rahul by 7 years. If their ages are in the respective ratio of 7 : 9, how old is Sachin?
+{1: '16 years', 2: '18 years', 3: '28 years', 4: '24.5 years', 5: 'None of these'}
+|
+The present ages of three persons in proportions 4 : 7 : 9. Eight years ago, the sum of their ages was 56. Find their present ages (in years).
+{1: '8, 20, 28', 2: '16, 28, 36', 3: '20, 35, 45', 4: 'None of these'}
+|
+Ayesha's father was 38 years of age when she was born while her mother was 36 years old when her brother four years younger to her was born. What is the difference between the ages of her parents?
+{1: '2 years', 2: '4 years', 3: '6 years', 4: '8 years'}
+|
+A person's present age is two-fifth of the age of his mother. After 8 years, he will be one-half of the age of his mother. How old is the mother at present?
+{1: '32 years', 2: '36 years', 3: '40 years', 4: '48 years'}
+|
+Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years, what is definitely the difference between R and Q's age?
+{1: '1 year', 2: '2 years', 3: '25 years', 4: 'Data inadequate', 5: 'None of these'}
+|
+The age of father 10 years ago was thrice the age of his son. Ten years hence, father's age will be twice that of his son. The ratio of their present ages is:
+{1: '5 : 2', 2: '7 : 3', 3: '9 : 2', 4: '13 : 4'}
+|
+A man is 24 years older than his son. In two years, his age will be twice the age of his son. The present age of his son is:
+{1: '14 years', 2: '18 years', 3: '20 years', 4: '22 years'}
+|
+Six years ago, the ratio of the ages of Kunal and Sagar was 6 : 5. Four years hence, the ratio of their ages will be 11 : 10. What is Sagar's age at present?
+{1: '16 years', 2: '18 years', 3: '20 years', 4: 'Cannot be determined', 5: 'None of these'}
+|
+The sum of the present ages of a father and his son is 60 years. Six years ago, father's age was five times the age of the son. After 6 years, son's age will be:
+{1: '12 years', 2: '14 years', 3: '18 years', 4: '20 years'}
+|
+At present, the ratio between the ages of Arun and Deepak is 4 : 3. After 6 years, Arun's age will be 26 years. What is the age of Deepak at present ?
+{1: '12 years', 2: '15 years', 3: '19 and half', 4: '21 years'}
+|
+Sachin is younger than Rahul by 7 years. If their ages are in the respective ratio of 7 : 9, how old is Sachin?
+{1: '16 years', 2: '18 years', 3: '28 years', 4: '24.5 years', 5: 'None of these'}
+|

@@ -1,0 +1,60 @@
+It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?
+{1: 'Sunday', 2: 'Saturday', 3: 'Friday', 4: 'Wednesday'}
+|
+What was the day of the week on 28th May, 2006?
+{1: 'Thursday', 2: 'Friday', 3: 'Saturday', 4: 'Sunday'}
+|
+What was the day of the week on 17th June, 1998?
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday'}
+|
+What will be the day of the week 15th August, 2010?
+{1: 'Sunday', 2: 'Monday', 3: 'Tuesday', 4: 'Friday'}
+|
+Today is Monday. After 61 days, it will be:
+{1: 'Wednesday', 2: 'Saturday', 3: 'Tuesday', 4: 'Thursday'}
+|
+If 6th March, 2005 is Monday, what was the day of the week on 6th March, 2004?
+{1: 'Sunday', 2: 'Saturday', 3: 'Tuesday', 4: 'Wednesday'}
+|
+On what dates of April, 2001 did Wednesday fall?
+{1: '1st, 8th, 15th, 22nd, 29th', 2: '2nd, 9th, 16th, 23rd, 30th', 3: '3rd, 10th, 17th, 24th', 4: '4th, 11th, 18th, 25th'}
+|
+How many days are there in x weeks x days?
+{1: '7x2', 2: '8x', 3: '14x', 4: '7'}
+|
+The last day of a century cannot be
+{1: 'Monday', 2: 'Wednesday', 3: 'Tuesday', 4: 'Friday'}
+|
+On 8th Feb, 2005 it was Tuesday. What was the day of the week on 8th Feb, 2004?
+{1: 'Tuesday', 2: 'Monday', 3: 'Sunday', 4: 'Wednesday'}
+|
+The calendar for the year 2007 will be the same for the year:
+{1: '2014', 2: '2016', 3: '2017', 4: '2018'}
+|
+Which of the following is not a leap year?
+{1: '700', 2: '800', 3: '1200', 4: '2000'}
+|
+On 8th Dec, 2007 Saturday falls. What day of the week was it on 8th Dec, 2006?
+{1: 'Sunday', 2: 'Thursday', 3: 'Tuesday', 4: 'Friday'}
+|
+January 1, 2008 is Tuesday. What day of the week lies on Jan 1, 2009?
+{1: 'Monday', 2: 'Wednesday', 3: 'Thursday', 4: 'Sunday'}
+|
+January 1, 2007 was Monday. What day of the week lies on Jan. 1, 2008?
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Sunday'}
+|
+If 6th March, 2005 is Monday, what was the day of the week on 6th March, 2004?
+{1: 'Sunday', 2: 'Saturday', 3: 'Tuesday', 4: 'Wednesday'}
+|
+On what dates of April, 2001 did Wednesday fall?
+{1: '1st, 8th, 15th, 22nd, 29th', 2: '2nd, 9th, 16th, 23rd, 30th', 3: '3rd, 10th, 17th, 24th', 4: '4th, 11th, 18th, 25th'}
+|
+How many days are there in x weeks x days?
+{1: '7x2', 2: '8x', 3: '14x', 4: '7'}
+|
+The last day of a century cannot be
+{1: 'Monday', 2: 'Wednesday', 3: 'Tuesday', 4: 'Friday'}
+|
+On 8th Feb, 2005 it was Tuesday. What was the day of the week on 8th Feb, 2004?
+{1: 'Tuesday', 2: 'Monday', 3: 'Sunday', 4: 'Wednesday'}
+|

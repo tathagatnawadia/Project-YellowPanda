@@ -1,0 +1,60 @@
+In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?
+{1: '6.25', 2: '6.5', 3: '6.75', 4: '7'}
+|
+A family consists of two grandparents, two parents and three grandchildren. The average age of the grandparents is 67 years, that of the parents is 35 years and that of the grandchildren is 6 years. What is the average age of the family?
+{1: '28\xa0 4 years  7', 2: '31\xa0 5 years  7', 3: '32\xa0 1 years  7', 4: 'None of these'}
+|
+A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?
+{1: 'Rs. 4991', 2: 'Rs. 5991', 3: 'Rs. 6001', 4: 'Rs. 6991'}
+|
+The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?
+{1: '0', 2: '1', 3: '10', 4: '19'}
+|
+The average weight of 8 person's increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?
+{1: '76 kg', 2: '76.5 kg', 3: '85 kg', 4: 'Data inadequate', 5: 'None of these'}
+|
+The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?
+{1: '23 years', 2: '24 years', 3: '25 years', 4: 'None of these'}
+|
+The average monthly income of P and Q is Rs. 5050. The average monthly income of Q and R is Rs. 6250 and the average monthly income of P and R is Rs. 5200. The monthly income of P is:
+{1: '3500', 2: '4000', 3: '4050', 4: '5000'}
+|
+The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:
+{1: '35 years', 2: '40 years', 3: '50 years', 4: 'None of these'}
+|
+A car owner buys petrol at Rs.7.50, Rs. 8 and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 4000 each year?
+{1: 'Rs. 7.98', 2: 'Rs. 8', 3: 'Rs. 8.50', 4: 'Rs. 9'}
+|
+In Arun's opinion, his weight is greater than 65 kg but less than 72 kg. His brother doest not agree with Arun and he thinks that Arun's weight is greater than 60 kg but less than 70 kg. His mother's view is that his weight cannot be greater than 68 kg. If all are them are correct in their estimation, what is the average of different probable weights of Arun?
+{1: '67 kg.', 2: '68 kg.', 3: '69 kg.', 4: 'Data inadequate', 5: 'None of these'}
+|
+The average weight of A, B and C is 45 kg. If the average weight of A and B be 40 kg and that of B and C be 43 kg, then the weight of B is:
+{1: '17 kg', 2: '20 kg', 3: '26 kg', 4: '31 kg'}
+|
+The average weight of 16 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg. Find the average weights of all the boys in the class.
+{1: '47.55 kg', 2: '48 kg', 3: '48.55 kg', 4: '49.25 kg'}
+|
+A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:
+{1: '250', 2: '276', 3: '280', 4: '285'}
+|
+If the average marks of three batches of 55, 60 and 45 students respectively is 50, 55, 60, then the average marks of all the students is:
+{1: '53.33', 2: '54.68', 3: '55', 4: 'None of these'}
+|
+A pupil's marks were wrongly entered as 83 instead of 63. Due to that the average marks for the class got increased by half (1/2). The number of pupils in the class is:
+{1: '10', 2: '20', 3: '40', 4: '73'}
+|
+The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?
+{1: '23 years', 2: '24 years', 3: '25 years', 4: 'None of these'}
+|
+The average monthly income of P and Q is Rs. 5050. The average monthly income of Q and R is Rs. 6250 and the average monthly income of P and R is Rs. 5200. The monthly income of P is:
+{1: '3500', 2: '4000', 3: '4050', 4: '5000'}
+|
+The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:
+{1: '35 years', 2: '40 years', 3: '50 years', 4: 'None of these'}
+|
+A car owner buys petrol at Rs.7.50, Rs. 8 and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 4000 each year?
+{1: 'Rs. 7.98', 2: 'Rs. 8', 3: 'Rs. 8.50', 4: 'Rs. 9'}
+|
+In Arun's opinion, his weight is greater than 65 kg but less than 72 kg. His brother doest not agree with Arun and he thinks that Arun's weight is greater than 60 kg but less than 70 kg. His mother's view is that his weight cannot be greater than 68 kg. If all are them are correct in their estimation, what is the average of different probable weights of Arun?
+{1: '67 kg.', 2: '68 kg.', 3: '69 kg.', 4: 'Data inadequate', 5: 'None of these'}
+|

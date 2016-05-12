@@ -1,0 +1,60 @@
+A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?
+{1: '45%', 2: '45 5 %  11', 3: '54 6 %  11', 4: '55%'}
+|
+Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:
+{1: '39, 30', 2: '41, 32', 3: '42, 33', 4: '43, 34'}
+|
+A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:
+{1: '588 apples', 2: '600 apples', 3: '672 apples', 4: '700 apples'}
+|
+What percentage of numbers from 1 to 70 have 1 or 9 in the unit's digit?
+{1: '1', 2: '14', 3: '20', 4: '21'}
+|
+If A = x% of y and B = y% of x, then which of the following is true?
+{1: 'A is smaller than B.', 2: 'A is greater than B', 3: 'Relationship between A and B cannot be determined.', 4: 'If x is smaller than y, then A is greater than B.', 5: 'None of these'}
+|
+If 20% of a = b, then b% of 20 is the same as:
+{1: '4% of a', 2: '5% of a', 3: '20% of a', 4: 'None of these'}
+|
+In a certain school, 20% of students are below 8 years of age. The number of students above 8 years of age is of the number of students of 8 years of age which is 48. What is the total number of students in the school?
+{1: '72', 2: '80', 3: '120', 4: '150', 5: '100'}
+|
+Two numbers A and B are such that the sum of 5% of A and 4% of B is two-third of the sum of 6% of A and 8% of B. Find the ratio of A : B.
+{1: '2 : 3', 2: '1 : 1', 3: '3 : 4', 4: '4 : 3'}
+|
+A student multiplied a number by 3 instead of 5 .  5 3  What is the percentage error in the calculation?
+{1: '34%', 2: '44%', 3: '54%', 4: '64%'}
+|
+In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:
+{1: '2700', 2: '2900', 3: '3000', 4: '3100'}
+|
+Three candidates contested an election and received 1136, 7636 and 11628 votes respectively. What percentage of the total votes did the winning candidate get?
+{1: '57%', 2: '60%', 3: '65%', 4: '90%'}
+|
+Two tailors X and Y are paid a total of Rs. 550 per week by their employer. If X is paid 120 percent of the sum paid to Y, how much is Y paid per week?
+{1: 'Rs. 200', 2: 'Rs. 250', 3: 'Rs. 300', 4: 'None of these'}
+|
+Gauri went to the stationers and bought things worth Rs. 25, out of which 30 paise went on sales tax on taxable purchases. If the tax rate was 6%, then what was the cost of the tax free items?
+{1: 'Rs. 15', 2: 'Rs. 15.70', 3: 'Rs. 19.70', 4: 'Rs. 20'}
+|
+Rajeev buys good worth Rs. 6650. He gets a rebate of 6% on it. After getting the rebate, he pays sales tax @ 10%. Find the amount he will have to pay for the goods.
+{1: 'Rs. 6876.10', 2: 'Rs. 6999.20', 3: 'Rs. 6654', 4: 'Rs. 7000'}
+|
+The population of a town increased from 1,75,000 to 2,62,500 in a decade. The average percent increase of population per year is:
+{1: '4.37%', 2: '5%', 3: '6%', 4: '8.75%'}
+|
+If 20% of a = b, then b% of 20 is the same as:
+{1: '4% of a', 2: '5% of a', 3: '20% of a', 4: 'None of these'}
+|
+In a certain school, 20% of students are below 8 years of age. The number of students above 8 years of age is of the number of students of 8 years of age which is 48. What is the total number of students in the school?
+{1: '72', 2: '80', 3: '120', 4: '150', 5: '100'}
+|
+Two numbers A and B are such that the sum of 5% of A and 4% of B is two-third of the sum of 6% of A and 8% of B. Find the ratio of A : B.
+{1: '2 : 3', 2: '1 : 1', 3: '3 : 4', 4: '4 : 3'}
+|
+A student multiplied a number by 3 instead of 5 .  5 3  What is the percentage error in the calculation?
+{1: '34%', 2: '44%', 3: '54%', 4: '64%'}
+|
+In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:
+{1: '2700', 2: '2900', 3: '3000', 4: '3100'}
+|

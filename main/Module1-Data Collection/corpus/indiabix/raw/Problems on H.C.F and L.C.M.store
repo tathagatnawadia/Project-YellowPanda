@@ -1,0 +1,105 @@
+Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.
+{1: '4', 2: '7', 3: '9', 4: '13'}
+|
+The H.C.F. of two numbers is 23 and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:
+{1: '276', 2: '299', 3: '322', 4: '345'}
+|
+Six bells commence tolling together and toll at intervals of 2, 4, 6, 8 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together ?
+{1: '4', 2: '10', 3: '15', 4: '16'}
+|
+Let N be the greatest number that will divide 1305, 4665 and 6905, leaving the same remainder in each case. Then sum of the digits in N is:
+{1: '4', 2: '5', 3: '6', 4: '8'}
+|
+The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:
+{1: '9000', 2: '9400', 3: '9600', 4: '9800'}
+|
+The product of two numbers is 4107. If the H.C.F. of these numbers is 37, then the greater number is:
+{1: '101', 2: '107', 3: '111', 4: '185'}
+|
+Three number are in the ratio of 3 : 4 : 5 and their L.C.M. is 2400. Their H.C.F. is:
+{1: '40', 2: '80', 3: '120', 4: '200'}
+|
+The G.C.D. of 1.08, 0.36 and 0.9 is:
+{1: '0.03', 2: '0.9', 3: '0.18', 4: '0.108'}
+|
+The product of two numbers is 2028 and their H.C.F. is 13. The number of such pairs is:
+{1: '1', 2: '2', 3: '3', 4: '4'}
+|
+The least multiple of 7, which leaves a remainder of 4, when divided by 6, 9, 15 and 18 is:
+{1: '74', 2: '94', 3: '184', 4: '364'}
+|
+Find the lowest common multiple of 24, 36 and 40.
+{1: '120', 2: '240', 3: '360', 4: '480'}
+|
+The least number which should be added to 2497 so that the sum is exactly divisible by 5, 6, 4 and 3 is:
+{1: '3', 2: '13', 3: '23', 4: '33'}
+|
+Reduce 128352 to its lowest terms.  238368
+{1: '3  4', 2: '5  13', 3: '7  13', 4: '9  13'}
+|
+The least number which when divided by 5, 6 , 7 and 8 leaves a remainder 3, but when divided by 9 leaves no remainder, is:
+{1: '1677', 2: '1683', 3: '2523', 4: '3363'}
+|
+A, B and C start at the same time in the same direction to run around a circular stadium. A completes a round in 252 seconds, B in 308 seconds and c in 198 seconds, all starting at the same point. After what time will they again at the starting point ?
+{1: '26 minutes and 18 seconds', 2: '42 minutes and 36 seconds', 3: '45 minutes', 4: '46 minutes and 12 seconds'}
+|
+The H.C.F. of two numbers is 11 and their L.C.M. is 7700. If one of the numbers is 275, then the other is:
+{1: '279', 2: '283', 3: '308', 4: '318'}
+|
+What will be the least number which when doubled will be exactly divisible by 12, 18, 21 and 30 ?
+{1: '196', 2: '630', 3: '1260', 4: '2520'}
+|
+The ratio of two numbers is 3 : 4 and their H.C.F. is 4. Their L.C.M. is:
+{1: '12', 2: '16', 3: '24', 4: '48'}
+|
+The smallest number which when diminished by 7, is divisible 12, 16, 18, 21 and 28 is:
+{1: '1008', 2: '1015', 3: '1022', 4: '1032'}
+|
+252 can be expressed as a product of primes as:
+{1: '2 x 2 x 3 x 3 x 7', 2: '2 x 2 x 2 x 3 x 7', 3: '3 x 3 x 3 x 3 x 7', 4: '2 x 3 x 3 x 3 x 7'}
+|
+The greatest possible length which can be used to measure exactly the lengths 7 m, 3 m 85 cm, 12 m 95 cm is:
+{1: '15 cm', 2: '25 cm', 3: '35 cm', 4: '42 cm'}
+|
+Three numbers which are co-prime to each other are such that the product of the first two is 551 and that of the last two is 1073. The sum of the three numbers is:
+{1: '75', 2: '81', 3: '85', 4: '89'}
+|
+Find the highest common factor of 36 and 84.
+{1: '4', 2: '6', 3: '12', 4: '18'}
+|
+Which of the following fraction is the largest ?
+{1: '7  8', 2: '13  16', 3: '31  40', 4: '63  80'}
+|
+The least number, which when divided by 12, 15, 20 and 54 leaves in each case a remainder of 8 is:
+{1: '504', 2: '536', 3: '544', 4: '548'}
+|
+The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively, is:
+{1: '123', 2: '127', 3: '235', 4: '305'}
+|
+Which of the following has the most number of divisors?
+{1: '99', 2: '101', 3: '176', 4: '182'}
+|
+The L.C.M. of two numbers is 48. The numbers are in the ratio 2 : 3. Then sum of the number is:
+{1: '28', 2: '32', 3: '40', 4: '64'}
+|
+The H.C.F. of 9 , 12 , 18 and 21 is:  10 25 35 40
+{1: '3  5', 2: '252  5', 3: '3  1400', 4: '63  700'}
+|
+If the sum of two numbers is 55 and the H.C.F. and L.C.M. of these numbers are 5 and 120 respectively, then the sum of the reciprocals of the numbers is equal to:
+{1: '55  601', 2: '601  55', 3: '11  120', 4: '120  11'}
+|
+The product of two numbers is 4107. If the H.C.F. of these numbers is 37, then the greater number is:
+{1: '101', 2: '107', 3: '111', 4: '185'}
+|
+Three number are in the ratio of 3 : 4 : 5 and their L.C.M. is 2400. Their H.C.F. is:
+{1: '40', 2: '80', 3: '120', 4: '200'}
+|
+The G.C.D. of 1.08, 0.36 and 0.9 is:
+{1: '0.03', 2: '0.9', 3: '0.18', 4: '0.108'}
+|
+The product of two numbers is 2028 and their H.C.F. is 13. The number of such pairs is:
+{1: '1', 2: '2', 3: '3', 4: '4'}
+|
+The least multiple of 7, which leaves a remainder of 4, when divided by 6, 9, 15 and 18 is:
+{1: '74', 2: '94', 3: '184', 4: '364'}
+|

@@ -1,0 +1,60 @@
+Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number which is a multiple of 3 or 5?
+{1: '1  2', 2: '2  5', 3: '8  15', 4: '9  20'}
+|
+A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?
+{1: '10  21', 2: '11  21', 3: '2  7', 4: '5  7'}
+|
+In a box, there are 8 red, 7 blue and 6 green balls. One ball is picked up randomly. What is the probability that it is neither red nor green?
+{1: '1  3', 2: '3  4', 3: '7  19', 4: '8  21', 5: '9  21'}
+|
+What is the probability of getting a sum 9 from two throws of a dice?
+{1: '1  6', 2: '1  8', 3: '1  9', 4: '1  12'}
+|
+Three unbiased coins are tossed. What is the probability of getting at most two heads?
+{1: '3  4', 2: '1  4', 3: '3  8', 4: '7  8'}
+|
+Two dice are thrown simultaneously. What is the probability of getting two numbers whose product is even?
+{1: '1  2', 2: '3  4', 3: '3  8', 4: '5  16'}
+|
+In a class, there are 15 boys and 10 girls. Three students are selected at random. The probability that 1 girl and 2 boys are selected, is:
+{1: '21  46', 2: '25  117', 3: '1  50', 4: '3  25'}
+|
+In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize?
+{1: '1  10', 2: '2  5', 3: '2  7', 4: '5  7'}
+|
+From a pack of 52 cards, two cards are drawn together at random. What is the probability of both the cards being kings?
+{1: '1  15', 2: '25  57', 3: '35  256', 4: '1  221'}
+|
+Two dice are tossed. The probability that the total score is a prime number is:
+{1: '1  6', 2: '5  12', 3: '1  2', 4: '7  9'}
+|
+A card is drawn from a pack of 52 cards. The probability of getting a queen of club or a king of heart is:
+{1: '1  13', 2: '2  13', 3: '1  26', 4: '1  52'}
+|
+A bag contains 4 white, 5 red and 6 blue balls. Three balls are drawn at random from the bag. The probability that all of them are red, is:
+{1: '1  22', 2: '3  22', 3: '2  91', 4: '2  77'}
+|
+Two cards are drawn together from a pack of 52 cards. The probability that one is a spade and one is a heart, is:
+{1: '3  20', 2: '29  34', 3: '47  100', 4: '13  102'}
+|
+One card is drawn at random from a pack of 52 cards. What is the probability that the card drawn is a face card (Jack, Queen and King only)?
+{1: '1  13', 2: '3  13', 3: '1  4', 4: '9  52'}
+|
+A bag contains 6 black and 8 white balls. One ball is drawn at random. What is the probability that the ball drawn is white?
+{1: '3  4', 2: '4  7', 3: '1  8', 4: '3  7'}
+|
+Two dice are thrown simultaneously. What is the probability of getting two numbers whose product is even?
+{1: '1  2', 2: '3  4', 3: '3  8', 4: '5  16'}
+|
+In a class, there are 15 boys and 10 girls. Three students are selected at random. The probability that 1 girl and 2 boys are selected, is:
+{1: '21  46', 2: '25  117', 3: '1  50', 4: '3  25'}
+|
+In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize?
+{1: '1  10', 2: '2  5', 3: '2  7', 4: '5  7'}
+|
+From a pack of 52 cards, two cards are drawn together at random. What is the probability of both the cards being kings?
+{1: '1  15', 2: '25  57', 3: '35  256', 4: '1  221'}
+|
+Two dice are tossed. The probability that the total score is a prime number is:
+{1: '1  6', 2: '5  12', 3: '1  2', 4: '7  9'}
+|

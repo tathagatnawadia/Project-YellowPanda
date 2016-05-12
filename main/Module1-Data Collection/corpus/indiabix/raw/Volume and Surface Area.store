@@ -1,0 +1,60 @@
+A right triangle with sides 3 cm, 4 cm and 5 cm is rotated the side of 3 cm to form a cone. The volume of the cone so formed is:
+{1: '12 cm3', 2: '15 cm3', 3: '16 cm3', 4: '20 cm3'}
+|
+In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:
+{1: '75 cu. m', 2: '750 cu. m', 3: '7500 cu. m', 4: '75000 cu. m'}
+|
+A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of four walls, the volume of the hall is:
+{1: '720', 2: '900', 3: '1200', 4: '1800'}
+|
+66 cubic centimetres of silver is drawn into a wire 1 mm in diameter. The length of the wire in metres will be:
+{1: '84', 2: '90', 3: '168', 4: '336'}
+|
+A hollow iron pipe is 21 cm long and its external diameter is 8 cm. If the thickness of the pipe is 1 cm and iron weighs 8 g/cm3, then the weight of the pipe is:
+{1: '3.6 kg', 2: '3.696 kg', 3: '36 kg', 4: '36.9 kg'}
+|
+A boat having a length 3 m and breadth 2 m is floating on a lake. The boat sinks by 1 cm when a man gets on it. The mass of the man is:
+{1: '12 kg', 2: '60 kg', 3: '72 kg', 4: '96 kg'}
+|
+50 men took a dip in a water tank 40 m long and 20 m broad on a religious day. If the average displacement of water by a man is 4 m3, then the rise in the water level in the tank will be:
+{1: '20 cm', 2: '25 cm', 3: '35 cm', 4: '50 cm'}
+|
+The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface.
+{1: '30 m2', 2: '40 m2', 3: '60 m2', 4: '80 m2'}
+|
+A cistern 6m long and 4 m wide contains water up to a depth of 1 m 25 cm. The total area of the wet surface is:
+{1: '49 m2', 2: '50 m2', 3: '53.5 m2', 4: '55 m2'}
+|
+A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off so as to make an open box. If the length of the square is 8 m, the volume of the box (in m3) is:
+{1: '4830', 2: '5120', 3: '6420', 4: '8960'}
+|
+The curved surface area of a cylindrical pillar is 264 m2 and its volume is 924 m3. Find the ratio of its diameter to its height.
+{1: '3 : 7', 2: '7 : 3', 3: '6 : 7', 4: '7 : 6'}
+|
+A cistern of capacity 8000 litres measures externally 3.3 m by 2.6 m by 1.1 m and its walls are 5 cm thick. The thickness of the bottom is:
+{1: '90 cm', 2: '1 dm', 3: '1 m', 4: '1.1 cm'}
+|
+What is the total surface area of a right circular cone of height 14 cm and base radius 7 cm?
+{1: '344.35 cm2', 2: '462 cm2', 3: '498.35 cm2', 4: 'None of these'}
+|
+A large cube is formed from the material obtained by melting three smaller cubes of 3, 4 and 5 cm side. What is the ratio of the total surface areas of the smaller cubes and the large cube?
+{1: '2 : 1', 2: '3 : 2', 3: '25 : 18', 4: '27 : 20'}
+|
+How many bricks, each measuring 25 cm x 11.25 cm x 6 cm, will be needed to build a wall of 8 m x 6 m x 22.5 cm?
+{1: '5600', 2: '6000', 3: '6400', 4: '7200'}
+|
+A boat having a length 3 m and breadth 2 m is floating on a lake. The boat sinks by 1 cm when a man gets on it. The mass of the man is:
+{1: '12 kg', 2: '60 kg', 3: '72 kg', 4: '96 kg'}
+|
+50 men took a dip in a water tank 40 m long and 20 m broad on a religious day. If the average displacement of water by a man is 4 m3, then the rise in the water level in the tank will be:
+{1: '20 cm', 2: '25 cm', 3: '35 cm', 4: '50 cm'}
+|
+The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface.
+{1: '30 m2', 2: '40 m2', 3: '60 m2', 4: '80 m2'}
+|
+A cistern 6m long and 4 m wide contains water up to a depth of 1 m 25 cm. The total area of the wet surface is:
+{1: '49 m2', 2: '50 m2', 3: '53.5 m2', 4: '55 m2'}
+|
+A metallic sheet is of rectangular shape with dimensions 48 m x 36 m. From each of its corners, a square is cut off so as to make an open box. If the length of the square is 8 m, the volume of the box (in m3) is:
+{1: '4830', 2: '5120', 3: '6420', 4: '8960'}
+|

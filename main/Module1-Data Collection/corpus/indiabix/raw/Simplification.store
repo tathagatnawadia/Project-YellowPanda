@@ -1,0 +1,60 @@
+A man has Rs. 480 in the denominations of one-rupee notes, five-rupee notes and ten-rupee notes. The number of notes of each denomination is equal. What is the total number of notes that he has ?
+{1: '45', 2: '60', 3: '75', 4: '90'}
+|
+There are two examinations rooms A and B. If 10 students are sent from A to B, then the number of students in each room is the same. If 20 candidates are sent from B to A, then the number of students in A is double the number of students in B. The number of students in room A is:
+{1: '20', 2: '80', 3: '100', 4: '200'}
+|
+The price of 10 chairs is equal to that of 4 tables. The price of 15 chairs and 2 tables together is Rs. 4000. The total price of 12 chairs and 3 tables is:
+{1: 'Rs. 3500', 2: 'Rs. 3750', 3: 'Rs. 3840', 4: 'Rs. 3900'}
+|
+If a - b = 3 and a2 + b2 = 29, find the value of ab.
+{1: '10', 2: '12', 3: '15', 4: '18'}
+|
+The price of 2 sarees and 4 shirts is Rs. 1600. With the same money one can buy 1 saree and 6 shirts. If one wants to buy 12 shirts, how much shall he have to pay ?
+{1: 'Rs. 1200', 2: 'Rs. 2400', 3: 'Rs. 4800', 4: 'Cannot be determined', 5: 'None of these'}
+|
+A sum of Rs. 1360 has been divided among A, B and C such that A gets of what B gets and B gets of what C gets. B's share is:
+{1: 'Rs. 120', 2: 'Rs. 160', 3: 'Rs. 240', 4: 'Rs. 300'}
+|
+One-third of Rahul's savings in National Savings Certificate is equal to one-half of his savings in Public Provident Fund. If he has Rs. 1,50,000 as total savings, how much has he saved in Public Provident Fund ?
+{1: 'Rs. 30,000', 2: 'Rs. 50,000', 3: 'Rs. 60,000', 4: 'Rs. 90,000'}
+|
+A fires 5 shots to B's 3 but A kills only once in 3 shots while B kills once in 2 shots. When B has missed 27 times, A has killed:
+{1: '30 birds', 2: '60 birds', 3: '72 birds', 4: '90 birds'}
+|
+Eight people are planning to share equally the cost of a rental car. If one person withdraws from the arrangement and the others share equally the entire cost of the car, then the share of each of the remaining persons increased by:
+{1: '1  7', 2: '1  8', 3: '1  9', 4: '7  8'}
+|
+To fill a tank, 25 buckets of water is required. How many buckets of water will be required to fill the same tank if the capacity of the bucket is reduced to two-fifth of its present ?
+{1: '10', 2: '35', 3: '62.5', 4: 'Cannot be determined', 5: 'None of these'}
+|
+In a regular week, there are 5 working days and for each day, the working hours are 8. A man gets Rs. 2.40 per hour for regular work and Rs. 3.20 per hours for overtime. If he earns Rs. 432 in 4 weeks, then how many hours does he work for ?
+{1: '160', 2: '175', 3: '180', 4: '195'}
+|
+Free notebooks were distributed equally among children of a class. The number of notebooks each child got was one-eighth of the number of children. Had the number of children been half, each child would have got 16 notebooks. Total how many notebooks were distributed ?
+{1: '256', 2: '432', 3: '512', 4: '640', 5: 'None of these'}
+|
+A man has some hens and cows. If the number of heads be 48 and the number of feet equals 140, then the number of hens will be:
+{1: '22', 2: '23', 3: '24', 4: '26'}
+|
+(469 + 174)2 - (469 - 174)2 = ?  (469 x 174)
+{1: '2', 2: '4', 3: '295', 4: '643'}
+|
+David gets on the elevator at the 11th floor of a building and rides up at the rate of 57 floors per minute. At the same time, Albert gets on an elevator at the 51st floor of the same building and rides down at the rate of 63 floors per minute. If they continue travelling at these rates, then at which floor will their paths cross ?
+{1: '19', 2: '28', 3: '30', 4: '37'}
+|
+A sum of Rs. 1360 has been divided among A, B and C such that A gets of what B gets and B gets of what C gets. B's share is:
+{1: 'Rs. 120', 2: 'Rs. 160', 3: 'Rs. 240', 4: 'Rs. 300'}
+|
+One-third of Rahul's savings in National Savings Certificate is equal to one-half of his savings in Public Provident Fund. If he has Rs. 1,50,000 as total savings, how much has he saved in Public Provident Fund ?
+{1: 'Rs. 30,000', 2: 'Rs. 50,000', 3: 'Rs. 60,000', 4: 'Rs. 90,000'}
+|
+A fires 5 shots to B's 3 but A kills only once in 3 shots while B kills once in 2 shots. When B has missed 27 times, A has killed:
+{1: '30 birds', 2: '60 birds', 3: '72 birds', 4: '90 birds'}
+|
+Eight people are planning to share equally the cost of a rental car. If one person withdraws from the arrangement and the others share equally the entire cost of the car, then the share of each of the remaining persons increased by:
+{1: '1  7', 2: '1  8', 3: '1  9', 4: '7  8'}
+|
+To fill a tank, 25 buckets of water is required. How many buckets of water will be required to fill the same tank if the capacity of the bucket is reduced to two-fifth of its present ?
+{1: '10', 2: '35', 3: '62.5', 4: 'Cannot be determined', 5: 'None of these'}
+|

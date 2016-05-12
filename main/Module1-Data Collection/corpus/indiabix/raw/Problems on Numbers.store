@@ -1,0 +1,60 @@
+If one-third of one-fourth of a number is 15, then three-tenth of that number is:
+{1: '35', 2: '36', 3: '45', 4: '54'}
+|
+Three times the first of three consecutive odd integers is 3 more than twice the third. The third integer is:
+{1: '9', 2: '11', 3: '13', 4: '15'}
+|
+The difference between a two-digit number and the number obtained by interchanging the positions of its digits is 36. What is the difference between the two digits of that number?
+{1: '3', 2: '4', 3: '9', 4: 'Cannot be determined', 5: 'None of these'}
+|
+The difference between a two-digit number and the number obtained by interchanging the digits is 36. What is the difference between the sum and the difference of the digits of the number if the ratio between the digits of the number is 1 : 2 ?
+{1: '4', 2: '8', 3: '16', 4: 'None of these'}
+|
+A two-digit number is such that the product of the digits is 8. When 18 is added to the number, then the digits are reversed. The number is:
+{1: '18', 2: '24', 3: '42', 4: '81'}
+|
+The sum of the digits of a two-digit number is 15 and the difference between the digits is 3. What is the two-digit number?
+{1: '69', 2: '78', 3: '96', 4: 'Cannot be determined', 5: 'None of these'}
+|
+The sum of the squares of three numbers is 138, while the sum of their products taken two at a time is 131. Their sum is:
+{1: '20', 2: '30', 3: '40', 4: 'None of these'}
+|
+A number consists of two digits. If the digits interchange places and the new number is added to the original number, then the resulting number will be divisible by:
+{1: '3', 2: '5', 3: '9', 4: '11'}
+|
+In a two-digit, if it is known that its unit's digit exceeds its ten's digit by 2 and that the product of the given number and the sum of its digits is equal to 144, then the number is:
+{1: '24', 2: '26', 3: '42', 4: '46'}
+|
+Find a positive number which when increased by 17 is equal to 60 times the reciprocal of the number.
+{1: '3', 2: '10', 3: '17', 4: '20'}
+|
+The product of two numbers is 9375 and the quotient, when the larger one is divided by the smaller, is 15. The sum of the numbers is:
+{1: '380', 2: '395', 3: '400', 4: '425'}
+|
+The product of two numbers is 120 and the sum of their squares is 289. The sum of the number is:
+{1: '20', 2: '23', 3: '169', 4: 'None of these'}
+|
+A number consists of 3 digits whose sum is 10. The middle digit is equal to the sum of the other two and the number will be increased by 99 if its digits are reversed. The number is:
+{1: '145', 2: '253', 3: '370', 4: '352'}
+|
+The sum of two number is 25 and their difference is 13. Find their product.
+{1: '104', 2: '114', 3: '315', 4: '325'}
+|
+What is the sum of two consecutive even numbers, the difference of whose squares is 84?
+{1: '34', 2: '38', 3: '42', 4: '46'}
+|
+The sum of the digits of a two-digit number is 15 and the difference between the digits is 3. What is the two-digit number?
+{1: '69', 2: '78', 3: '96', 4: 'Cannot be determined', 5: 'None of these'}
+|
+The sum of the squares of three numbers is 138, while the sum of their products taken two at a time is 131. Their sum is:
+{1: '20', 2: '30', 3: '40', 4: 'None of these'}
+|
+A number consists of two digits. If the digits interchange places and the new number is added to the original number, then the resulting number will be divisible by:
+{1: '3', 2: '5', 3: '9', 4: '11'}
+|
+In a two-digit, if it is known that its unit's digit exceeds its ten's digit by 2 and that the product of the given number and the sum of its digits is equal to 144, then the number is:
+{1: '24', 2: '26', 3: '42', 4: '46'}
+|
+Find a positive number which when increased by 17 is equal to 60 times the reciprocal of the number.
+{1: '3', 2: '10', 3: '17', 4: '20'}
+|
