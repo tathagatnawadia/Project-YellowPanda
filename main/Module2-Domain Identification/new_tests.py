@@ -132,18 +132,38 @@ print("Unique words in the corpus : ",len(set(universe_words)))
 print("Record shuffle status      :  Completed")
 print("Total questions on record  : ",len(all_questions))
 
-#Finalising the feature vector
+
+
+'''
+Refining Machine Learning Technique for changing 
+1.overall_limit
+2.domain_limit
+
+Finalising the feature vector
+
+'''
+
+
+
+phase_test = [most_common_domainwise,most_commons_ovarall]
+
+overall_limit = 500
+overall_limit_stepsize = 20
+domain_limit = 25
+domain_limit_stepsize = 5
+
+#Phase1: Overall Feature Vector
+FD_relevant_words = nltk.FreqDist(all_words)
+most_commons_ovarall = FD_relevant_words.most_common(overall_limit)
+
+#Phase2: Domainwise Feature Vector
+
 FD_domain_words = {}
+most_common_domainwise = []
 for domain in domain_words:
 	FD_domain_words[domain] = nltk.FreqDist(domain_words[domain])
-
-FD_relevant_words = nltk.FreqDist(all_words)
-
-most_commons_ovarall = FD_relevant_words.most_common(500)
-most_common_domainwise = []
-
 for domain,FD in FD_domain_words.items():
-	to_be_appended = FD.most_common(25)
+	to_be_appended = FD.most_common(domain_limit)
 	for value in to_be_appended:
 		most_common_domainwise.append(value)
 
@@ -152,7 +172,7 @@ print(most_commons_ovarall)
 print(most_common_domainwise)
 '''
 
-most_common = most_common_domainwise
+most_common = most_common_domainwise #Setting up with either (most_common_domainwise, most_common_overall)
 
 word_features = []
 for common in most_common:
