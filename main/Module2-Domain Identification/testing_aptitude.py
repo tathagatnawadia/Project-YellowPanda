@@ -143,7 +143,7 @@ Finalising the feature vector
 
 '''
 
-overall_limit = 500
+overall_limit = 700
 domain_limit = 25
 learn_setting = 'OVERALL'
 
@@ -162,7 +162,7 @@ learn_setting = 'OVERALL'
 
 #Phase1: Overall Feature Vector
 FD_relevant_words = nltk.FreqDist(all_words)
-most_commons_overall = FD_relevant_words.most_common(overall_limit)
+most_common_overall = FD_relevant_words.most_common(overall_limit)
 
 #Phase2: Domainwise Feature Vector
 
@@ -176,7 +176,7 @@ for domain,FD in FD_domain_words.items():
 		most_common_domainwise.append(value)
 
 '''
-print(most_commons_overall)
+print(most_common_overall)
 print(most_common_domainwise)
 '''
 if learn_setting == 'DOMAIN':
@@ -268,6 +268,7 @@ print("LinearSVC_classifier Classifier : ",nltk.classify.accuracy(LinearSVC_clas
 
 
 
+
 class VoteClassifier(ClassifierI):
 	def __init__(self, *classifiers):
 		self._classifiers = classifiers
@@ -314,6 +315,6 @@ terminal_text = input('Question : ')
 
 terminal_text_feature = find_features(terminal_text) #(word_tokenized_review,sentiment) for 10000 movie reviews
 
-print(Fore.RED,'Results')
+print(Fore.RED,'\nResults')
 print(Style.RESET_ALL)
 print("Classification:", len(terminal_text_feature)," ----- ",voted_classifier.classify(terminal_text_feature), "Confidence %:",voted_classifier.confidence(terminal_text_feature)*100)

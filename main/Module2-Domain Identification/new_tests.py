@@ -19,6 +19,7 @@ from nltk.classify import ClassifierI
 from statistics import mode
 import codecs
 import os,re,operator
+import matplotlib.pyplot as plt
 
 import spacy
 nlp = spacy.en.English()
@@ -144,17 +145,17 @@ Refining Machine Learning Technique for changing
 Finalising the feature vector
 
 '''
-print(Fore.YELLOW + 'COMMENCING MACHINE LEARNING PHASE')
+print(Fore.GREEN + '\nCOMMENCING MACHINE LEARNING PHASE')
 print(Style.RESET_ALL)
 
 stats = {}
 
 overall_limit = 300
-overall_limit_stepsize = 50
+overall_limit_stepsize = 20
 domain_limit = 5
 domain_limit_stepsize = 5
 
-iterations = 10
+iterations = 20
 learn_setting = 'OVERALL' #DOMAIN OR OVERALL
 
 c = 0
@@ -215,8 +216,8 @@ for i in range(iterations):
 	random.shuffle(featuresets)
 	random.shuffle(featuresets)
 
-	training_set = featuresets[100:] #1900 reviews with (review,sentiment)
-	testing_set = featuresets[:100] #remaing revies with (review,sentiment)
+	training_set = featuresets[300:] #1900 reviews with (review,sentiment)
+	testing_set = featuresets[:300] #remaing revies with (review,sentiment)
 
 	# print("Total size of the training data : ",len(training_set))
 	# print("Total size of the testing  data : ",len(testing_set))
@@ -287,22 +288,39 @@ for i in range(iterations):
 # Learn about API authentication here: https://plot.ly/python/getting-started
 # Find your api_key here: https://plot.ly/settings/api
 
-import plotly.plotly as py
-import plotly.graph_objs as go
+def showGraphs(stats):
 
-data = [
-    go.Bar(
-        x=['giraffes', 'orangutans', 'monkeys'],
-        y=[20, 14, 23]
-    )
-]
-plot_url = py.plot(data, filename='basic-bar')
+	x = []
+	y = []
+	labels = []
+	c = 1
+	for key,value in stats.items():
+		x.append(c)
+		c = c + 1
+		labels.append(key)
+		y.append(sum(value)/len(value))
 
-print("PRINTING STATS")
+
+	plt.plot(x, y, 'ro')
+	# You can specify a rotation for the tick labels in degrees or with keywords.
+	plt.xticks(x, labels, rotation='vertical')
+	# Pad margins so that markers don't get clipped by the axes
+	plt.margins(0.2)
+	# Tweak spacing to prevent clipping of tick-labels
+	plt.subplots_adjust(bottom=0.15)
+	plt.show()
+
+print(Fore.GREEN + '\nGENERATING REPORT')
+print(Style.RESET_ALL)
 print("Type : ",learn_setting)
-print(stats)
 
+for key,value in stats.items():
+	value.sort()
+	stats[key] = value[4:]
 
+import collections
+od = collections.OrderedDict(sorted(stats.items()))
+showGraphs(od)
 
 class VoteClassifier(ClassifierI):
 	def __init__(self, *classifiers):
@@ -332,9 +350,9 @@ voted_classifier = VoteClassifier(classifier,
 									SGDClassifier_classifier,
 									SVC_classifier,
 									LinearSVC_classifier)
-									
+							
 
-print(Fore.YELLOW,'FIELD TESTING THE LEARNED MODEL ON THE TESTING DATA')
+print(Fore.YELLOW,'\nFIELD TESTING THE LEARNED MODEL ON THE TESTING DATA')
 print(Style.RESET_ALL)
 
 print("Classification:", len(testing_set[0][0])," ----- ",voted_classifier.classify(testing_set[0][0]), "Confidence %:",voted_classifier.confidence(testing_set[0][0])*100)
