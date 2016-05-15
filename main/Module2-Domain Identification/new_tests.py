@@ -122,8 +122,10 @@ for domain in file_dumps:
 	for question in file_dumps[domain].splitlines():
 		all_questions.append((question.strip(),domain))
 
-print(Fore.YELLOW + 'SUMMARY')
+print(Fore.YELLOW + 'INITITAL SUMMARY')
 print(Style.RESET_ALL)
+
+random.shuffle(all_questions)
 random.shuffle(all_questions)
 
 print("Length of corpus           : ",len(all_questions))
@@ -142,118 +144,163 @@ Refining Machine Learning Technique for changing
 Finalising the feature vector
 
 '''
+print(Fore.YELLOW + 'COMMENCING MACHINE LEARNING PHASE')
+print(Style.RESET_ALL)
 
+stats = {}
 
-
-phase_test = [most_common_domainwise,most_commons_ovarall]
-
-overall_limit = 500
-overall_limit_stepsize = 20
-domain_limit = 25
+overall_limit = 300
+overall_limit_stepsize = 50
+domain_limit = 5
 domain_limit_stepsize = 5
 
-#Phase1: Overall Feature Vector
-FD_relevant_words = nltk.FreqDist(all_words)
-most_commons_ovarall = FD_relevant_words.most_common(overall_limit)
+iterations = 10
+learn_setting = 'OVERALL' #DOMAIN OR OVERALL
 
-#Phase2: Domainwise Feature Vector
+c = 0
+printProgress(c, iterations, prefix = 'Learning :', suffix = 'Complete', barLength = 50)
+for i in range(iterations):
+	c = c + 1
+	printProgress(c, iterations, prefix = 'Learning :', suffix = 'Complete', barLength = 50)
 
-FD_domain_words = {}
-most_common_domainwise = []
-for domain in domain_words:
-	FD_domain_words[domain] = nltk.FreqDist(domain_words[domain])
-for domain,FD in FD_domain_words.items():
-	to_be_appended = FD.most_common(domain_limit)
-	for value in to_be_appended:
-		most_common_domainwise.append(value)
+	most_common = []
+	graph_key = []
 
-'''
-print(most_commons_ovarall)
-print(most_common_domainwise)
-'''
+	if learn_setting == 'DOMAIN':
+		domain_limit = domain_limit + domain_limit_stepsize
+		graph_key = domain_limit
+		#Phase2: Domainwise Feature Vector
+		FD_domain_words = {}
+		most_common_domainwise = []
+		for domain in domain_words:
+			FD_domain_words[domain] = nltk.FreqDist(domain_words[domain])
+		for domain,FD in FD_domain_words.items():
+			to_be_appended = FD.most_common(domain_limit)
+			for value in to_be_appended:
+				most_common_domainwise.append(value)
 
-most_common = most_common_domainwise #Setting up with either (most_common_domainwise, most_common_overall)
-
-word_features = []
-for common in most_common:
-	word_features.append(common[0])
-'''
-print("FEATURE VECTOR :: ",word_features)
-'''
-
-def find_features(document):
-	words = set(word_tokenize(document))
-	features = {}
-	for w in word_features:
-		features[w] = (w in words)
-	return features
-
-featuresets = [(find_features(question), category) for (question,category) in all_questions] #(word_tokenized_review,sentiment) for 10000 movie reviews
-
-random.shuffle(featuresets)
-
-training_set = featuresets[50:] #1900 reviews with (review,sentiment)
-testing_set = featuresets[:50] #remaing revies with (review,sentiment)
-
-print("Total size of the data : ",len(featuresets))
-print("Total size of the training data : ",len(training_set))
-print("Total size of the testing  data : ",len(testing_set))
+		most_common = most_common_domainwise
 
 
+	else:
+		overall_limit = overall_limit + overall_limit_stepsize
+		graph_key = overall_limit
+		#Phase1: Overall Feature Vector
+		FD_relevant_words = nltk.FreqDist(all_words)
+		most_common_overall = FD_relevant_words.most_common(overall_limit)
 
-classifier = nltk.NaiveBayesClassifier.train(training_set) #The classifier is ready with the training set
+		most_common = most_common_overall	
 
-print("NLTK Original Naive Bayes Algo Accuracy : ",(nltk.classify.accuracy(classifier,testing_set))*100)
-classifier.show_most_informative_features(15)
+	'''
+	print(most_common_ovarall)
+	print(most_common_domainwise)
+	'''
 
-'''
+	word_features = []
+	for common in most_common:
+		word_features.append(common[0])
+	'''
+	print("FEATURE VECTOR :: ",word_features)
+	'''
 
-Training 3 Naive Bayes Classifier and comparing the results
+	def find_features(document):
+		words = set(word_tokenize(document))
+		features = {}
+		for w in word_features:
+			features[w] = (w in words)
+		return features
 
-'''
-MNB_classifier = SklearnClassifier(MultinomialNB())
-MNB_classifier.train(training_set)
-print("MNB_classifier Classifier : ",nltk.classify.accuracy(MNB_classifier,testing_set)*100)
+	featuresets = [(find_features(question), category) for (question,category) in all_questions] #(word_tokenized_review,sentiment) for 10000 movie reviews
 
-#GAU_classifier = SklearnClassifier(GaussianNB())
-#GAU_classifier.train(training_set)
-#print("GAU_classifier Classifier : ",nltk.classify.accuracy(GAU_classifier,testing_set)*100)
+	random.shuffle(featuresets)
+	random.shuffle(featuresets)
 
-BER_classifier = SklearnClassifier(BernoulliNB())
-BER_classifier.train(training_set)
-print("BER_classifier Classifier : ",nltk.classify.accuracy(BER_classifier,testing_set)*100)
+	training_set = featuresets[100:] #1900 reviews with (review,sentiment)
+	testing_set = featuresets[:100] #remaing revies with (review,sentiment)
 
-'''
+	# print("Total size of the training data : ",len(training_set))
+	# print("Total size of the testing  data : ",len(testing_set))
 
-Training 2 Regression Based Classifier and comparing the results
 
-'''
+	temp_result = []
+	classifier = nltk.NaiveBayesClassifier.train(training_set) #The classifier is ready with the training set
+	temp_result.append(nltk.classify.accuracy(classifier,testing_set)*100)
+	#print("NLTK Original Naive Bayes Algo Accuracy : ",(nltk.classify.accuracy(classifier,testing_set))*100)
+	#classifier.show_most_informative_features(15)
 
-LogisticsRegression_classifier = SklearnClassifier(LogisticRegression())
-LogisticsRegression_classifier.train(training_set)
-print("LogisticsRegression_classifier Classifier : ",nltk.classify.accuracy(LogisticsRegression_classifier,testing_set)*100)
+	'''
 
-SGDClassifier_classifier = SklearnClassifier(SGDClassifier())
-SGDClassifier_classifier.train(training_set)
-print("SGDClassifier_classifier Classifier : ",nltk.classify.accuracy(SGDClassifier_classifier,testing_set)*100)
+	Training 3 Naive Bayes Classifier and comparing the results
 
-'''
+	'''
+	MNB_classifier = SklearnClassifier(MultinomialNB())
+	MNB_classifier.train(training_set)
+	temp_result.append(nltk.classify.accuracy(MNB_classifier,testing_set)*100)
+	#print("MNB_classifier Classifier : ",nltk.classify.accuracy(MNB_classifier,testing_set)*100)
 
-Training 3 Support Vector Machine Classifier and comparing the results
+	# GAU_classifier = SklearnClassifier(GaussianNB())
+	# GAU_classifier.train(training_set)
+	# print("GAU_classifier Classifier : ",nltk.classify.accuracy(GAU_classifier,testing_set)*100)
 
-'''
+	BER_classifier = SklearnClassifier(BernoulliNB())
+	BER_classifier.train(training_set)
+	temp_result.append(nltk.classify.accuracy(BER_classifier,testing_set)*100)
+	#print("BER_classifier Classifier : ",nltk.classify.accuracy(BER_classifier,testing_set)*100)
 
-SVC_classifier = SklearnClassifier(SVC())
-SVC_classifier.train(training_set)
-print("SVC_classifier Classifier : ",nltk.classify.accuracy(SVC_classifier,testing_set)*100)
+	'''
 
-LinearSVC_classifier = SklearnClassifier(LinearSVC())
-LinearSVC_classifier.train(training_set)
-print("LinearSVC_classifier Classifier : ",nltk.classify.accuracy(LinearSVC_classifier,testing_set)*100)
+	Training 2 Regression Based Classifier and comparing the results
 
-# NuSVC_classifier = SklearnClassifier(NuSVC())
-# NuSVC_classifier.train(training_set)
-# print("NuSVC_classifier Classifier : ",nltk.classify.accuracy(NuSVC_classifier,testing_set)*100)
+	'''
+
+	LogisticsRegression_classifier = SklearnClassifier(LogisticRegression())
+	LogisticsRegression_classifier.train(training_set)
+	temp_result.append(nltk.classify.accuracy(LogisticsRegression_classifier,testing_set)*100)
+	# print("LogisticsRegression_classifier Classifier : ",nltk.classify.accuracy(LogisticsRegression_classifier,testing_set)*100)
+
+	SGDClassifier_classifier = SklearnClassifier(SGDClassifier())
+	SGDClassifier_classifier.train(training_set)
+	temp_result.append(nltk.classify.accuracy(SGDClassifier_classifier,testing_set)*100)
+	# print("SGDClassifier_classifier Classifier : ",nltk.classify.accuracy(SGDClassifier_classifier,testing_set)*100)
+
+	'''
+
+	Training 3 Support Vector Machine Classifier and comparing the results
+
+	'''
+
+	SVC_classifier = SklearnClassifier(SVC())
+	SVC_classifier.train(training_set)
+	temp_result.append(nltk.classify.accuracy(SVC_classifier,testing_set)*100)
+	# print("SVC_classifier Classifier : ",nltk.classify.accuracy(SVC_classifier,testing_set)*100)
+
+	LinearSVC_classifier = SklearnClassifier(LinearSVC())
+	LinearSVC_classifier.train(training_set)
+	temp_result.append(nltk.classify.accuracy(LinearSVC_classifier,testing_set)*100)
+	# print("LinearSVC_classifier Classifier : ",nltk.classify.accuracy(LinearSVC_classifier,testing_set)*100)
+
+	# NuSVC_classifier = SklearnClassifier(NuSVC())
+	# NuSVC_classifier.train(training_set)
+	# print("NuSVC_classifier Classifier : ",nltk.classify.accuracy(NuSVC_classifier,testing_set)*100)
+	stats[graph_key] = temp_result
+
+# Learn about API authentication here: https://plot.ly/python/getting-started
+# Find your api_key here: https://plot.ly/settings/api
+
+import plotly.plotly as py
+import plotly.graph_objs as go
+
+data = [
+    go.Bar(
+        x=['giraffes', 'orangutans', 'monkeys'],
+        y=[20, 14, 23]
+    )
+]
+plot_url = py.plot(data, filename='basic-bar')
+
+print("PRINTING STATS")
+print("Type : ",learn_setting)
+print(stats)
 
 
 
@@ -286,12 +333,23 @@ voted_classifier = VoteClassifier(classifier,
 									SVC_classifier,
 									LinearSVC_classifier)
 									
-								
-# print("Classification:", len(testing_set[0][0])," ----- ",voted_classifier.classify(testing_set[0][0]), "Confidence %:",voted_classifier.confidence(testing_set[0][0])*100)
-# print("Classification:", len(testing_set[1][0])," ----- ",voted_classifier.classify(testing_set[1][0]), "Confidence %:",voted_classifier.confidence(testing_set[1][0])*100)
-# print("Classification:", len(testing_set[2][0])," ----- ",voted_classifier.classify(testing_set[2][0]), "Confidence %:",voted_classifier.confidence(testing_set[2][0])*100)
-# print("Classification:", len(testing_set[3][0])," ----- ",voted_classifier.classify(testing_set[3][0]), "Confidence %:",voted_classifier.confidence(testing_set[3][0])*100)
-# print("Classification:", len(testing_set[4][0])," ----- ",voted_classifier.classify(testing_set[4][0]), "Confidence %:",voted_classifier.confidence(testing_set[4][0])*100)
-# print("Classification:", len(testing_set[5][0])," ----- ",voted_classifier.classify(testing_set[5][0]), "Confidence %:",voted_classifier.confidence(testing_set[5][0])*100)
 
-# 		
+print(Fore.YELLOW,'FIELD TESTING THE LEARNED MODEL ON THE TESTING DATA')
+print(Style.RESET_ALL)
+
+print("Classification:", len(testing_set[0][0])," ----- ",voted_classifier.classify(testing_set[0][0]), "Confidence %:",voted_classifier.confidence(testing_set[0][0])*100)
+print("Classification:", len(testing_set[1][0])," ----- ",voted_classifier.classify(testing_set[1][0]), "Confidence %:",voted_classifier.confidence(testing_set[1][0])*100)
+print("Classification:", len(testing_set[2][0])," ----- ",voted_classifier.classify(testing_set[2][0]), "Confidence %:",voted_classifier.confidence(testing_set[2][0])*100)
+print("Classification:", len(testing_set[3][0])," ----- ",voted_classifier.classify(testing_set[3][0]), "Confidence %:",voted_classifier.confidence(testing_set[3][0])*100)
+print("Classification:", len(testing_set[4][0])," ----- ",voted_classifier.classify(testing_set[4][0]), "Confidence %:",voted_classifier.confidence(testing_set[4][0])*100)
+print("Classification:", len(testing_set[5][0])," ----- ",voted_classifier.classify(testing_set[5][0]), "Confidence %:",voted_classifier.confidence(testing_set[5][0])*100)
+
+
+
+# terminal_text = input('Question : ')
+
+# terminal_text_feature = find_features(terminal_text) #(word_tokenized_review,sentiment) for 10000 movie reviews
+
+# print(Fore.RED,'Results')
+# print(Style.RESET_ALL)
+# print("Classification:", len(terminal_text_feature)," ----- ",voted_classifier.classify(terminal_text_feature), "Confidence %:",voted_classifier.confidence(terminal_text_feature)*100)
