@@ -61,11 +61,13 @@ from nltk.tokenize import PunktSentenceTokenizer
 rvalue=[]
 rkey=[]
 train_text=state_union.raw("2005-GWBush.txt")
-sample_text="A man can reach a certain place in 30 hours. The speed with which he travels is , If he reduces his speed by 1/15th, he goes 10 km less in that time."
-custom_sent_tokenizer=PunktSentenceTokenizer(train_text)
-tokenized=custom_sent_tokenizer.tokenize(sample_text)
+# sample_text="A man can reach a certain place in 30 hours. The speed with which he travels is , If he reduces his speed by 1/15th, he goes 10 km less in that time."
 # print(tokenized)
-def process_content():
+def process_content(text):
+	print("\n---------------------------------------------------------------------------- \n")
+	print(text)
+	custom_sent_tokenizer=PunktSentenceTokenizer(train_text)
+	tokenized=custom_sent_tokenizer.tokenize(text)
 	try:
 		for i in tokenized:
 			words=nltk.word_tokenize(i)
@@ -84,6 +86,9 @@ def process_content():
 	questionword2=re.compile("WRB")
 	questionword3=re.compile("WDT")
 	comma=re.compile(",")
+	colon=re.compile(":")
+	rvalue=[]
+	rkey=[]
 	for key,value in newset:
 		rvalue.append(value)
 		rkey.append(key)
@@ -157,7 +162,7 @@ def process_content():
 							print("objective is ",rkey[m])
 							break
 						m=m+1
-	else:	
+	if z==0:	
 		for key,value in newset:
 			if noun.match(value) is not None:
 				print("objective is",key)

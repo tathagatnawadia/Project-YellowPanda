@@ -307,7 +307,7 @@ print("Classification:", len(testing_set[1][0])," ----- ",voted_classifier.class
 print("Classification:", len(testing_set[2][0])," ----- ",voted_classifier.classify(testing_set[2][0]), "Confidence %:",voted_classifier.confidence(testing_set[2][0])*100)
 print("Classification:", len(testing_set[3][0])," ----- ",voted_classifier.classify(testing_set[3][0]), "Confidence %:",voted_classifier.confidence(testing_set[3][0])*100)
 print("Classification:", len(testing_set[4][0])," ----- ",voted_classifier.classify(testing_set[4][0]), "Confidence %:",voted_classifier.confidence(testing_set[4][0])*100)
-print("Classification:", len(testing_set[5][0])," ----- ",voted_classifier.classify(testing_set[5][0]), "Confidence %:",voted_classifier.confidence(testing_set[5][0])*100)
+#rint("Classification:", len(testing_set[5][0])," ----- ",voted_classifier.classify(testing_set[5][0]), "Confidence %:",voted_classifier.confidence(testing_set[5][0])*100)
 
 
 
