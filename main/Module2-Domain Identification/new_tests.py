@@ -150,13 +150,13 @@ print(Style.RESET_ALL)
 
 stats = {}
 
-overall_limit = 300
-overall_limit_stepsize = 20
+overall_limit = 100
+overall_limit_stepsize = 100
 domain_limit = 5
-domain_limit_stepsize = 5
+domain_limit_stepsize = 10
 
 iterations = 20
-learn_setting = 'OVERALL' #DOMAIN OR OVERALL
+learn_setting = 'DOMAIN' #DOMAIN OR OVERALL
 
 c = 0
 printProgress(c, iterations, prefix = 'Learning :', suffix = 'Complete', barLength = 50)
@@ -217,7 +217,7 @@ for i in range(iterations):
 	random.shuffle(featuresets)
 
 	training_set = featuresets[300:] #1900 reviews with (review,sentiment)
-	testing_set = featuresets[:300] #remaing revies with (review,sentiment)
+	testing_set = featuresets[:1000] #remaing revies with (review,sentiment)
 
 	# print("Total size of the training data : ",len(training_set))
 	# print("Total size of the testing  data : ",len(testing_set))
@@ -294,6 +294,7 @@ def showGraphs(stats):
 	y = []
 	labels = []
 	c = 1
+	print(stats)
 	for key,value in stats.items():
 		x.append(c)
 		c = c + 1

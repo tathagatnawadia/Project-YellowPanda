@@ -297,24 +297,35 @@ voted_classifier = VoteClassifier(classifier,
 									SGDClassifier_classifier,
 									SVC_classifier,
 									LinearSVC_classifier)
+print(voted_classifier)
 									
 
 print(Fore.YELLOW,'FIELD TESTING THE LEARNED MODEL ON THE TESTING DATA')
 print(Style.RESET_ALL)
 
-print("Classification:", len(testing_set[0][0])," ----- ",voted_classifier.classify(testing_set[0][0]), "Confidence %:",voted_classifier.confidence(testing_set[0][0])*100)
-print("Classification:", len(testing_set[1][0])," ----- ",voted_classifier.classify(testing_set[1][0]), "Confidence %:",voted_classifier.confidence(testing_set[1][0])*100)
-print("Classification:", len(testing_set[2][0])," ----- ",voted_classifier.classify(testing_set[2][0]), "Confidence %:",voted_classifier.confidence(testing_set[2][0])*100)
-print("Classification:", len(testing_set[3][0])," ----- ",voted_classifier.classify(testing_set[3][0]), "Confidence %:",voted_classifier.confidence(testing_set[3][0])*100)
-print("Classification:", len(testing_set[4][0])," ----- ",voted_classifier.classify(testing_set[4][0]), "Confidence %:",voted_classifier.confidence(testing_set[4][0])*100)
-#rint("Classification:", len(testing_set[5][0])," ----- ",voted_classifier.classify(testing_set[5][0]), "Confidence %:",voted_classifier.confidence(testing_set[5][0])*100)
+try:
+	print("Classification:", len(testing_set[0][0])," ----- ",voted_classifier.classify(testing_set[0][0]), "Confidence %:",voted_classifier.confidence(testing_set[0][0])*100)
+	print("Classification:", len(testing_set[1][0])," ----- ",voted_classifier.classify(testing_set[1][0]), "Confidence %:",voted_classifier.confidence(testing_set[1][0])*100)
+	print("Classification:", len(testing_set[2][0])," ----- ",voted_classifier.classify(testing_set[2][0]), "Confidence %:",voted_classifier.confidence(testing_set[2][0])*100)
+	print("Classification:", len(testing_set[3][0])," ----- ",voted_classifier.classify(testing_set[3][0]), "Confidence %:",voted_classifier.confidence(testing_set[3][0])*100)
+	print("Classification:", len(testing_set[4][0])," ----- ",voted_classifier.classify(testing_set[4][0]), "Confidence %:",voted_classifier.confidence(testing_set[4][0])*100)
+	#print("Classification:", len(testing_set[5][0])," ----- ",voted_classifier.classify(testing_set[5][0]), "Confidence %:",voted_classifier.confidence(testing_set[5][0])*100)
+except Exception as e:
+	print("The classifier had got a conflict !!")
 
 
+while True:
+	try:
+		print(" ########################### ")
+		terminal_text = input('Question : ')
+		if terminal_text == 'exit':
+			break
+		terminal_text_feature = find_features(terminal_text) #(word_tokenized_review,sentiment) for 10000 movie reviews
 
-terminal_text = input('Question : ')
-
-terminal_text_feature = find_features(terminal_text) #(word_tokenized_review,sentiment) for 10000 movie reviews
-
-print(Fore.RED,'\nResults')
-print(Style.RESET_ALL)
-print("Classification:", len(terminal_text_feature)," ----- ",voted_classifier.classify(terminal_text_feature), "Confidence %:",voted_classifier.confidence(terminal_text_feature)*100)
+		print(Fore.RED,'\nResults')	
+		print(Style.RESET_ALL)
+		print("Classification:", len(terminal_text_feature)," ----- ",voted_classifier.classify(terminal_text_feature), "Confidence %:",voted_classifier.confidence(terminal_text_feature)*100)
+	except Exception as e:
+		print(Fore.RED,'\nResults')	
+		print(Style.RESET_ALL)
+		print("Unable to classify.")
