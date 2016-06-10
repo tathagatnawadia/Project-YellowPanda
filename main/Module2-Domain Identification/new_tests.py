@@ -151,12 +151,12 @@ print(Style.RESET_ALL)
 stats = {}
 
 overall_limit = 100
-overall_limit_stepsize = 100
+overall_limit_stepsize = 50
 domain_limit = 5
 domain_limit_stepsize = 10
 
 iterations = 20
-learn_setting = 'DOMAIN' #DOMAIN OR OVERALL
+learn_setting = 'OVERALL' #DOMAIN OR OVERALL
 
 c = 0
 printProgress(c, iterations, prefix = 'Learning :', suffix = 'Complete', barLength = 50)
